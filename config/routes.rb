@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   #temporary root path for now
 
     resources :users, only:[:new, :create]
+    resources :chats, only:[:index, :show, :create]
     resources :sessions, only:[:new, :destroy, :create]
 
 end
