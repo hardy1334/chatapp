@@ -6,9 +6,9 @@ class User < ApplicationRecord
     has_many :chats, through: :subscriptions
 
 
-    def existing_chat_users
+    def existing_chats_users
         existing_chat_users = []
-        self.chat.each do |chat|
+        self.chats.each do |chat|
             existing_chat_users.concat(chat.subscriptions.where.not(user_id:self.id).map{|subscription| subscription.user})
         end
         existing_chat_users.uniq    
