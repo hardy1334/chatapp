@@ -14,3 +14,5 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree ./channels
+//= require jquery
+//= require jquery_ujs
