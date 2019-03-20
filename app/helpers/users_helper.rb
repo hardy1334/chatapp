@@ -1,5 +1,4 @@
-
-module UsersHelpers
+module UsersHelper
 	def current_user
 		@cached_user = @cached_user || User.find_by(id:session[:user_id])
 	end
