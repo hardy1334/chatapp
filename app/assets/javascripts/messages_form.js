@@ -11,9 +11,11 @@ function messageForm() {
       }
     }
   });
+
   $(document).keydown(function (e) {
     if (e.keyCode == 16) shiftDown = true;
   });
+
   $(document).keyup(function (e) {
     if (e.keyCode == 16) shiftDown = false;
   });
