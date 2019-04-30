@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This sample chat app which is currently in development phase basically lets users send messages to each other and the users which are already present in database.
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+Run `bundle install` to install all the gems required for this repository to setup. 
 
-* System dependencies
+# Technologies Used
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby(2.5.0)
+* Rails(5.2)
+* ActionCable
